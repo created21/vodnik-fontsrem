@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Водник</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a class="logo-link" href="#">
+          <img class="logo" src="images/logo.png" alt="логотип">
+        </a>
+
+        <nav class="main-nav">
+          <ul class="main-nav__list">
+            <li class="main-nav__item drop-down">
+              <a href="#" class="main-nav__link drop-down__link">О нас</a>
+              <ul class="main-nav__sub-menu">
+                <li class="main-nav__sub-item"><a href="/about.html" class="main-nav__sub-link">О нас</a></li>
+                <li class="main-nav__sub-item"><a href="/docs.html" class="main-nav__sub-link">Документы</a></li>
+                <li class="main-nav__sub-item"><a href="#" class="main-nav__sub-link">Галерея</a></li>
+                <li class="main-nav__sub-item"><a href="#" class="main-nav__sub-link">Вакансии</a></li>
+                <li class="main-nav__sub-item"><a href="#" class="main-nav__sub-link">Акции и скидки</a></li>
+                <li class="main-nav__sub-item"><a href="#" class="main-nav__sub-link">Аренда</a></li>
+                <li class="main-nav__sub-item"><a href="#" class="main-nav__sub-link">Соревнования</a></li>
+              </ul>
+            </li>
+            <li class="main-nav__item drop-down">
+              <a href="#" class="main-nav__link drop-down__link main-nav__link--acent">Детям<span
+                  class="main-nav__caret caret caret-down"></span></a>
+              <ul class="main-nav__sub-menu">
+                <li class="main-nav__sub-item"><a href="#" class="main-nav__sub-link">Раннее и грудничковое плавание</a>
+                </li>
+                <li class="main-nav__sub-item"><a href="#" class="main-nav__sub-link">Детское плавание</a></li>
+              </ul>
+            </li>
+            <li class="main-nav__item"><a href="#" class="main-nav__link main-nav__link--acent">Взрослым</a></li>
+            <li class="main-nav__item"><a href="#" class="main-nav__link">Расписание</a></li>
+            <li class="main-nav__item"><a href="#" class="main-nav__link">Цены</a></li>
+            <li class="main-nav__item"><a href="#" class="main-nav__link">Наша команда</a></li>
+            <li class="main-nav__item"><a href="#" class="main-nav__link">Секции</a></li>
+            <li class="main-nav__item"><a href="#" class="main-nav__link">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <div class="contacts-box">
+          <ul class="contacts-box__social-list">
+            <li class="contacts-box__social-item">
+              <a class="contacts-box__social-icon" href="#">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.88 11.8467V18.24L18.0533 15.04L15.4667 13.4467L12.88 11.8467Z" fill="#F82323" />
+                  <path
+                    d="M15 0C6.71333 0 0 6.71333 0 15C0 23.2867 6.71333 30 15 30C23.2867 30 30 23.2867 30 15C30 6.71333 23.2867 0 15 0ZM23.3333 17.78C23.3333 19.4467 21.9733 20.8067 20.3067 20.8067H9.69333C8.02667 20.8067 6.66667 19.4467 6.66667 17.78V12.2267C6.66667 10.56 8.02667 9.2 9.69333 9.2H20.3067C21.9733 9.2 23.3333 10.56 23.3333 12.2267V17.78Z"
+                    fill="#F82323" />
+                </svg>
+              </a>
+            </li>
+            <li class="contacts-box__social-item">
+              <a class="contacts-box__social-icon" href="#">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M15 30C23.2863 30 30 23.2863 30 15C30 6.71375 23.2863 0 15 0C6.71375 0 0 6.71375 0 15C0 23.2863 6.71375 30 15 30ZM6.86375 14.675L21.3263 9.09875C21.9975 8.85625 22.5837 9.2625 22.3662 10.2775L22.3675 10.2762L19.905 21.8775C19.7225 22.7 19.2337 22.9 18.55 22.5125L14.8 19.7487L12.9912 21.4913C12.7912 21.6913 12.6225 21.86 12.235 21.86L12.5013 18.0438L19.4513 11.765C19.7537 11.4987 19.3837 11.3488 18.985 11.6138L10.3963 17.0212L6.69375 15.8663C5.89 15.6112 5.8725 15.0625 6.86375 14.675Z"
+                    fill="#37ABFF" />
+                </svg>
+              </a>
+            </li>
+            <li class="contacts-box__social-item">
+              <a class="contacts-box__social-tel" href="tel:74953248686">+7(495) 324 86 86</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="burger">
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section class="hero" style="background-image: url('images/hero-bg.jpg');">
+      <div class="container">
+        <div class="hero__inner">
+          <div class="hero__content">
+            <h1 class="hero__content-title">Мы формируем <span>новые группы</span> по плаванию</h1>
+            <a href="#" class="hero__content-link btn">Записаться</a>
+          </div>
+          <img class="hero__banner" src="images/hero-banner.png" alt="баннер">
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="container">
+        <h2 class="title">
+          Какие занятия мы проводим?
+        </h2>
+        <div class="card__list">
+          <div class="services__item card">
+            <img class="card__img" src="images/services/service-1.jpg" alt="Групповые занятия 
+по плаванию для детей">
+            <a class="card__title" href="#">Групповые занятия<br>
+              по плаванию для детей</a>
+          </div>
+          <div class="services__item card">
+            <img class="card__img" src="images/services/service-2.jpg" alt="Плавание для грудничков">
+            <a class="card__title" href="#">Плавание для грудничков</a>
+          </div>
+          <div class="services__item card">
+            <img class="card__img" src="images/services/service-3.jpg" alt="Групповые занятия для взрослых">
+            <a class="card__title" href="#">Групповые занятия для взрослых</a>
+          </div>
+          <div class="services__item card">
+            <img class="card__img" src="images/services/service-4.jpg" alt="Группы ПРО (бассейн + зал)">
+            <a class="card__title" href="#">Группы ПРО (бассейн + зал)</a>
+          </div>
+          <div class="services__item card">
+            <img class="card__img" src="images/services/service-5.jpg" alt="Сплит тренировки">
+            <a class="card__title" href="#">Сплит тренировки</a>
+          </div>
+          <div class="services__item card">
+            <img class="card__img" src="images/services/service-6.jpg" alt="Индивидуальные занятия">
+            <a class="card__title" href="#">Индивидуальные занятия</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="advantages">
+      <div class="container">
+        <h2 class="title advantages__title">
+          Наши преимущества
+        </h2>
+        <div class="advantages__list">
+          <div class="advantages__item">
+            <img class="advantages__item-icon" src="images/advantages/icon-1.png" alt="Удовольствие от занятий">
+            <div class="advantages__item-content">
+              <h5 class="advantages__item-title">
+                Удовольствие от занятий
+              </h5>
+              <p class="advantages__item-text">
+                Программа занятий построена для сохранения<br>
+                и укрепления здоровья, получения удовольствия <br>и новых навыков в плавании
+              </p>
+            </div>
+          </div>
+          <div class="advantages__item">
+            <img class="advantages__item-icon" src="images/advantages/icon-2.png"
+              alt="Высококвалифицированные специалисты">
+            <div class="advantages__item-content">
+              <h5 class="advantages__item-title">
+                Высококвалифицированные специалисты
+              </h5>
+              <p class="advantages__item-text">
+                Все наши тренеры имеют большой стаж работы, образование в области спорта и спортивное звание
+              </p>
+            </div>
+          </div>
+          <div class="advantages__item">
+            <img class="advantages__item-icon" src="images/advantages/icon-3.png" alt="Удобное время">
+            <div class="advantages__item-content">
+              <h5 class="advantages__item-title">
+                Удобное время
+              </h5>
+              <p class="advantages__item-text">
+                Вы сможете подобрать удобное<br>для себя или ребенка расписание
+              </p>
+            </div>
+          </div>
+          <div class="advantages__item">
+            <img class="advantages__item-icon" src="images/advantages/icon-4.png" alt="Выгодная цена">
+            <div class="advantages__item-content">
+              <h5 class="advantages__item-title">
+                Выгодная цена
+              </h5>
+              <p class="advantages__item-text">
+                Занятия с тренером в группах <br>ежемесячно стоят от 3200 руб. <br>(за 8 занятий)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="images/advantages/advantages-bg.png" alt="вода" class="advantages__img-bg">
+    </section>
+
+    <section class="clients">
+      <div class="container">
+        <h2 class="title">
+          Для кого подойдут занятия?
+        </h2>
+        <div class="card__list">
+          <div class="card">
+            <img class="card__img" src="images/clients/clients-1.jpg" alt="Груднички от 3 мес">
+            <a class="card__title clients__card-title" href="#">Груднички от 3 мес</a>
+          </div>
+          <div class="card">
+            <img class="card__img" src="images/clients/clients-2.jpg" alt="Дети от 7 лет">
+            <a class="card__title clients__card-title" href="#">Дети от 7 лет</a>
+          </div>
+          <div class="card">
+            <img class="card__img" src="images/clients/clients-3.jpg" alt="Взрослые от 18 лет">
+            <a class="card__title clients__card-title" href="#">Взрослые от 18 лет</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="steps">
+      <div class="container">
+        <h2 class="title">
+          Начните сейчас!
+          4 простых шага
+        </h2>
+        <div class="steps__list">
+          <div class="steps__item">
+            <span class="steps__item-num">1</span>
+            <h5 class="steps__item-title">
+              Выберите секцию
+            </h5>
+            <p class="steps__item-text">
+              Мы предлагаем выбор <br>секций на любой вкус
+            </p>
+          </div>
+          <div class="steps__item">
+            <span class="steps__item-num">2</span>
+            <h5 class="steps__item-title">
+              Запишитесь на занятие
+            </h5>
+            <p class="steps__item-text">
+              Для посещения, необходимо записаться через личный визит или по телефону
+            </p>
+          </div>
+          <div class="steps__item">
+            <span class="steps__item-num">3</span>
+            <h5 class="steps__item-title">
+              Соберите сумку или рюкзак
+            </h5>
+            <p class="steps__item-text">
+              Принадлежности для <br>бассейна и справку
+            </p>
+          </div>
+          <div class="steps__item">
+            <span class="steps__item-num">4</span>
+            <h5 class="steps__item-title">
+              Приходите на занятие
+            </h5>
+            <p class="steps__item-text">
+              Ждем вас на занятие<br>
+              в назначенное время
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   <section class="team">
+      <h2 class="title team__title">
+        Наша команда
+      </h2>
+      <div class="container">
+        <div class="team-slider__inner">
+          <div class="team-slider__item team-card">
+            <img src="images/team/team-1.jpg" alt="команда-1" class="team-card__img">
+            <h5 class="team-card__name">Кулаков Иван</h5>
+            <p class="team-card__text">тренер по плаванию</p>
+          </div>
+          <div class="team-slider__item team-card">
+            <img src="images/team/team-2.jpg" alt="команда-2" class="team-card__img">
+            <h5 class="team-card__name">Куркин Евгений </h5>
+            <p class="team-card__text">тренер по плаванию</p>
+          </div>
+          <div class="team-slider__item team-card">
+            <img src="images/team/team-3.jpg" alt="команда-3" class="team-card__img">
+            <h5 class="team-card__name">Рамаренко Денис</h5>
+            <p class="team-card__text">тренер по плаванию</p>
+          </div>
+          <div class="team-slider__item team-card">
+            <img src="images/team/team-4.jpg" alt="команда-4" class="team-card__img">
+            <h5 class="team-card__name">Сазанович Евгений</h5>
+            <p class="team-card__text">тренер по плаванию</p>
+          </div>
+          <div class="team-slider__item team-card">
+            <img src="images/team/team-3.jpg" alt="команда-3" class="team-card__img">
+            <h5 class="team-card__name">Рамаренко Денис</h5>
+            <p class="team-card__text">тренер по плаванию</p>
+          </div>
+          <div class="team-slider__item team-card">
+            <img src="images/team/team-4.jpg" alt="команда-4" class="team-card__img">
+            <h5 class="team-card__name">Сазанович Евгений</h5>
+            <p class="team-card__text">тренер по плаванию</p>
+          </div>
+          <div class="team-slider__item team-card">
+            <img src="images/team/team-2.jpg" alt="команда-2" class="team-card__img">
+            <h5 class="team-card__name">Куркин Евгений</h5>
+            <p class="team-card__text">тренер по плаванию</p>
+          </div>
+          <div class="team-slider__item team-card">
+            <img src="images/team/team-1.jpg" alt="команда-1" class="team-card__img">
+            <h5 class="team-card__name">Кулаков Иван</h5>
+            <p class="team-card__text">тренер по плаванию</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="feedback-slider">
+      <div class="container">
+        <h2 class="title feedback-slider__title">
+          Отзывы наши клиентов
+        </h2>
+        <div class="feedback-slider__inner">
+          <div class="feedback-slider__item feedback-card">
+            <img src="images/feedback/feedback-1.jpg" alt="отзыв-1" class="feedback-card__img">
+          </div>
+          <div class="feedback-slider__item feedback-card">
+            <img src="images/feedback/feedback-2.jpg" alt="отзыв-2" class="feedback-card__img">
+          </div>
+          <div class="feedback-slider__item feedback-card">
+            <img src="images/feedback/feedback-2.jpg" alt="отзыв-2" class="feedback-card__img">
+          </div>
+          <div class="feedback-slider__item feedback-card">
+            <img src="images/feedback/feedback-1.jpg" alt="отзыв-1" class="feedback-card__img">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq">
+      <div class="container">
+        <h2 class="title">Часто задаваемые вопросы</h2>
+
+        <div class="accordion">
+          <div class="accordion__inner">
+            <div class="accordion__label"><span>Есть ли у вас свободное плавание в бассейне? Сколько длится сеанс?</span></div>
+            <div class="accordion__content">Да, у нас есть свободное плавание, по расписанию сеансов. Каждый сеанс
+              длится 45 минут. В некоторые часы наш бассейн
+              сильно загружен групповыми занятиями, поэтому перед посещением рекомендуем ознакомиться с загрузкой
+              бассейна на нашем
+              сайте fokvodnik.ru в разделе «расписание» или на стойке ресепшена.</div>
+          </div>
+          <div class="accordion__inner">
+            <div class="accordion__label"><span>Что нужно взять с собой на плавание?</span></div>
+            <div class="accordion__content">Да, у нас есть свободное плавание, по расписанию сеансов. Каждый сеанс
+              длится 45
+              минут. В некоторые часы наш бассейн
+              сильно загружен групповыми занятиями, поэтому перед посещением рекомендуем ознакомиться с загрузкой
+              бассейна на
+              нашем
+              сайте fokvodnik.ru в разделе «расписание» или на стойке ресепшена.Да, у нас есть свободное плавание, по
+              расписанию сеансов. Каждый сеанс
+              длится 45
+              минут. В некоторые часы наш бассейн
+              сильно загружен групповыми занятиями, поэтому перед посещением рекомендуем ознакомиться с загрузкой
+              бассейна на
+              нашем
+              сайте fokvodnik.ru в разделе «расписание» или на стойке ресепшена.</div>
+          </div>
+          <div class="accordion__inner">
+            <div class="accordion__label"><span>Есть ли индивидуальные занятия с тренером?</span></div>
+            <div class="accordion__content">Да, у нас есть свободное плавание, по расписанию сеансов. Каждый сеанс
+              длится 45
+              минут. В некоторые часы наш бассейн
+              сильно загружен групповыми занятиями, поэтому перед посещением рекомендуем ознакомиться с загрузкой
+              бассейна на
+              нашем
+              сайте fokvodnik.ru в разделе «расписание» или на стойке ресепшена.</div>
+          </div>
+          <div class="accordion__inner">
+            <div class="accordion__label"><span>Какая глубина большого бассейна? Температура воды воздуха? Сколько дорожек?</span>
+            </div>
+            <div class="accordion__content">Да, у нас есть свободное плавание, по расписанию сеансов. Каждый сеанс
+              длится 45
+              минут. В некоторые часы наш бассейн
+              сильно загружен групповыми занятиями, поэтому перед посещением рекомендуем ознакомиться с загрузкой
+              бассейна на
+              нашем
+              сайте fokvodnik.ru в разделе «расписание» или на стойке ресепшена.</div>
+          </div>
+          <div class="accordion__inner">
+            <div class="accordion__label"><span>Сколько человек плавает на 1 дорожке?</span></div>
+            <div class="accordion__content">Да, у нас есть свободное плавание, по расписанию сеансов. Каждый сеанс
+              длится 45
+              минут. В некоторые часы наш бассейн
+              сильно загружен групповыми занятиями, поэтому перед посещением рекомендуем ознакомиться с загрузкой
+              бассейна на
+              нашем
+              сайте fokvodnik.ru в разделе «расписание» или на стойке ресепшена.</div>
+          </div>
+          <div class="accordion__inner">
+            <div class="accordion__label"><span>Нужна ли справка? Где взять справку? Какая должна быть справка?</span></div>
+            <div class="accordion__content">Да, у нас есть свободное плавание, по расписанию сеансов. Каждый сеанс
+              длится 45
+              минут. В некоторые часы наш бассейн
+              сильно загружен групповыми занятиями, поэтому перед посещением рекомендуем ознакомиться с загрузкой
+              бассейна на
+              нашем
+              сайте fokvodnik.ru в разделе «расписание» или на стойке ресепшена.</div>
+          </div>
+          <div class="accordion__inner">
+            <div class="accordion__label"><span>Со скольких лет можно посещать большой бассейн?</span></div>
+            <div class="accordion__content">Да, у нас есть свободное плавание, по расписанию сеансов. Каждый сеанс
+              длится 45
+              минут. В некоторые часы наш бассейн
+              сильно загружен групповыми занятиями, поэтому перед посещением рекомендуем ознакомиться с загрузкой
+              бассейна на
+              нашем
+              сайте fokvodnik.ru в разделе «расписание» или на стойке ресепшена.</div>
+          </div>
+          <div class="accordion__inner">
+            <div class="accordion__label"><span>Есть ли у вас скидки многодетным/инвалидам и тд.?</span></div>
+            <div class="accordion__content">Да, у нас есть свободное плавание, по расписанию сеансов. Каждый сеанс
+              длится 45
+              минут. В некоторые часы наш бассейн
+              сильно загружен групповыми занятиями, поэтому перед посещением рекомендуем ознакомиться с загрузкой
+              бассейна на
+              нашем
+              сайте fokvodnik.ru в разделе «расписание» или на стойке ресепшена.</div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="partners-slider">
+      <div class="container">
+        <h2 class="title partners-slider__title">
+          Наши партнеры
+        </h2>
+        <div class="partners-slider__inner">
+          <div class="partners-slider__item">
+            <img class="partners-slider__img" src="images/partners/partner-1.png" alt="лого партнера">
+          </div>
+          <div class="partners-slider__item">
+            <img class="partners-slider__img" src="images/partners/partner-2.png" alt="лого партнера">
+          </div>
+          <div class="partners-slider__item">
+            <img class="partners-slider__img" src="images/partners/partner-3.png" alt="лого партнера">
+          </div>
+          <div class="partners-slider__item">
+            <img class="partners-slider__img" src="images/partners/partner-4.png" alt="лого партнера">
+          </div>
+          <div class="partners-slider__item">
+            <img class="partners-slider__img" src="images/partners/partner-5.png" alt="лого партнера">
+          </div>
+          <div class="partners-slider__item">
+            <img class="partners-slider__img" src="images/partners/partner-6.png" alt="лого партнера">
+          </div>
+          <div class="partners-slider__item">
+            <img class="partners-slider__img" src="images/partners/partner-3.png" alt="лого партнера">
+          </div>
+          <div class="partners-slider__item">
+            <img class="partners-slider__img" src="images/partners/partner-1.png" alt="лого партнера">
+          </div>
+          <div class="partners-slider__item">
+            <img class="partners-slider__img" src="images/partners/partner-5.png" alt="лого партнера">
+          </div>
+          <div class="partners-slider__item">
+            <img class="partners-slider__img" src="images/partners/partner-2.png" alt="лого партнера">
+          </div>
+          <div class="partners-slider__item">
+            <img class="partners-slider__img" src="images/partners/partner-4.png" alt="лого партнера">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="container">
+        <div class="contact__inner">
+          <div class="contact__content">
+            <h2 class="contact__title">
+              Остались вопросы? <span>Звоните!</span>
+            </h2>
+            <p class="contact__tel">
+              +7(495) 324 86 86
+            </p>
+          </div>
+          <div class="contact__imgbox">
+            <img class="contact__img" src="images/contact.jpg" alt="бассейн">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__item">
+          <a class="footer__item-link" href="#">
+            <img class="footer__logo" src="images/logo-footer.png" alt="лого">
+          </a>
+          <div class="footer__item-tel">
+            <a class="footer__item-link" href="tel:74953248686">+7(495) 324 86 86</a>
+            <span>Ежедневно с 7:00 - 23:00</span>
+          </div>
+        </div>
+        <div class="footer__item">
+          <a href="#" class="footer__item-link social-icon">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12.88 11.8467V18.24L18.0533 15.04L15.4667 13.4467L12.88 11.8467Z" fill="white" />
+              <path
+                d="M15 0C6.71333 0 0 6.71333 0 15C0 23.2867 6.71333 30 15 30C23.2867 30 30 23.2867 30 15C30 6.71333 23.2867 0 15 0ZM23.3333 17.78C23.3333 19.4467 21.9733 20.8067 20.3067 20.8067H9.69333C8.02667 20.8067 6.66667 19.4467 6.66667 17.78V12.2267C6.66667 10.56 8.02667 9.2 9.69333 9.2H20.3067C21.9733 9.2 23.3333 10.56 23.3333 12.2267V17.78Z"
+                fill="white" />
+            </svg>
+          </a>
+          <a href="#" class="footer__item-link social-icon">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M15 30C23.2863 30 30 23.2863 30 15C30 6.71375 23.2863 0 15 0C6.71375 0 0 6.71375 0 15C0 23.2863 6.71375 30 15 30ZM6.86375 14.675L21.3263 9.09875C21.9975 8.85625 22.5837 9.2625 22.3662 10.2775L22.3675 10.2762L19.905 21.8775C19.7225 22.7 19.2337 22.9 18.55 22.5125L14.8 19.7487L12.9912 21.4913C12.7912 21.6913 12.6225 21.86 12.235 21.86L12.5013 18.0438L19.4513 11.765C19.7538 11.4987 19.3838 11.3488 18.985 11.6138L10.3963 17.0212L6.69375 15.8663C5.89 15.6113 5.8725 15.0625 6.86375 14.675Z"
+                fill="white" />
+            </svg>
+          </a>
+        </div>
+        <div class="footer__item">
+          <a href="#" class="footer__item-link">
+            Юридическая информация
+          </a>
+        </div>
+        <div class="footer__item">
+          <a href="#" class="footer__item-link">
+            Юридическая информация
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+    <a href="#" class="arrow-up">
+      <svg width="130" height="130" viewBox="0 0 130 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g filter="url(#filter0_d_590_1566)">
+          <circle cx="60" cy="48" r="34" fill="#0D2040" />
+        </g>
+        <path d="M61 35L55.2265 45L66.7735 45L61 35ZM62 62L62 44L60 44L60 62L62 62Z" fill="white" />
+        <defs>
+          <filter id="filter0_d_590_1566" x="0.6" y="0.6" width="128.8" height="128.8" filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              result="hardAlpha" />
+            <feOffset dx="5" dy="17" />
+            <feGaussianBlur stdDeviation="15.2" />
+            <feComposite in2="hardAlpha" operator="out" />
+            <feColorMatrix type="matrix" values="0 0 0 0 0.0509804 0 0 0 0 0.12549 0 0 0 0 0.25098 0 0 0 0.24 0" />
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_590_1566" />
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_590_1566" result="shape" />
+          </filter>
+        </defs>
+      </svg>
+    </a>
+
+
+
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
